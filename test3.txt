@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Расписание</title>
+  <style>
+    body {
+      font-family: sans-serif;
+      background-color: #eef;
+      padding: 20px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      text-align: center;
+    }
+    th, td {
+      border: 1px solid #444;
+      padding: 10px;
+    }
+    th {
+      background-color:rgb(255, 255, 255);
+      color: white;
+    }
+    tr:nth-child(even) {
+      background-color:rgb(253, 253, 253);
+    }
+  </style>
+</head>
+<body>
+  <h1>Школьное расписание</h1>
+  <table>
+    <tr>
+      <th>День</th>
+      <th>8:00</th>
+      <th>9:00</th>
+      <th>10:00</th>
+      <th>11:00</th>
+      <th>12:00</th>
+      <th>13:00</th>
+    </tr>
+    <tr>
+      <td>Понедельник</td>
+      <td>Алгебра</td>
+      <td>Русский</td>
+      <td>История</td>
+      <td>Физкультура</td>
+      <td>Химия</td>
+      <td>геоиметрия</td>
+    </tr>
+    <tr>
+      <td>Вторник</td>
+      <td>Английский</td>
+      <td>Биология</td>
+      <td>География</td>
+      <td>Англ</td>
+      <td>ЧиО</td>
+      <td>Я устал писать</td>
+    </tr>
+    
+  </table>
+</body>
+</html>
